@@ -1,6 +1,19 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import DataBinding from '../views/DataBinding.vue'
+// import DataBinding from '../views/DataBinding.vue' // string data binding
+// import DataBindingHtml from '../views/DataBindingHtml.vue' // html data binding
+// import DataBindingInputText from '../views/DataBindingInputText.vue' // input text data binding
+// import DataBindingInputNumber from '../views/DataBindingInputNumber.vue' // input number data binding
+// import DataBindingTextarea from '../views/DataBindingTextarea.vue' // textarea data binding
+// import DataBindingSelect from '../views/DataBindingSelect.vue' // select data binding
+// import DataBindingCheckbox from '../views/DataBindingCheckbox' // checkbox data binding
+// import DataBindingCheckbox2 from '../views/DataBindingCheckbox2' // checkbox array data binding
+// import DataBindingRadio from '../views/DataBindingRadio' // radio data binding
+// import DataBindingAttribue from '../views/DataBindingAttribue' // attribute data binding
+// import DataBindingButton from '../views/DataBindingButton' // button data binding
+// import DataBindingClass from '../views/DataBindingClass' // class data binding
+// import DataBindingClass2 from '../views/DataBindingClass2' // class array data binding
+import DataBindingStyle from '../views/DataBindingStyle' // inline style data binding
 
 const routes = [
   {
@@ -18,8 +31,8 @@ const routes = [
   },
   {
     path: '/databinding',
-    name: 'DataBinding',
-    component: DataBinding
+    name: 'DataBindingHtml',
+    component: DataBindingStyle
   }
 ]
 
