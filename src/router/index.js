@@ -13,7 +13,13 @@ import HomeView from '../views/HomeView.vue'
 // import DataBindingButton from '../views/DataBindingButton' // button data binding
 // import DataBindingClass from '../views/DataBindingClass' // class data binding
 // import DataBindingClass2 from '../views/DataBindingClass2' // class array data binding
-import DataBindingStyle from '../views/DataBindingStyle' // inline style data binding
+// import DataBindingStyle from '../views/DataBindingStyle' // inline style data binding
+// import DataBindingList from '../views/DataBindingList'  // list data binding
+// import RenderingVIf from '../views/RenderingVIf' // v-if v-show
+// import EventClick from '../views/EventClick'  // event click
+// import EventChange from '../views/EventChange'  // event change(select)
+// import ComputedEx from '../views/ComputedEx' // computed
+import WatchEx from '../views/WatchEx' // watch
 
 const routes = [
   {
@@ -32,7 +38,7 @@ const routes = [
   {
     path: '/databinding',
     name: 'DataBindingHtml',
-    component: DataBindingStyle
+    component: WatchEx
   }
 ]
 
