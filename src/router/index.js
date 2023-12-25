@@ -20,8 +20,10 @@ import HomeView from '../views/HomeView.vue'
 // import EventChange from '../views/EventChange'  // event change(select)
 // import ComputedEx from '../views/ComputedEx' // computed
 // import WatchEx from '../views/WatchEx' // watch
-import axiosEx from '../views/DataBindingList2.vue'
-
+// import axiosEx from '../views/DataBindingList2.vue'  // api server randering
+// import nestedComponent from '../views/NestedComponent.vue' // nested component
+import childComponent from '../views/ParentComponent5.vue'  // click event
+ 
 const routes = [
   {
     path: '/',
@@ -39,7 +41,7 @@ const routes = [
   {
     path: '/databinding',
     name: 'DataBindingHtml',
-    component: axiosEx
+    component: childComponent
   }
 ]
 
