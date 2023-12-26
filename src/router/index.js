@@ -25,6 +25,7 @@ import HomeView from '../views/HomeView.vue'
 // import childComponent from '../views/ParentComponent5.vue'  // click event
 // import slotComponent from '../views/SlotUseModalLayout.vue'
 import provideinject from '../views/ProvideInject.vue'
+// import calculator from '../views/ComponentMixins.vue'
  
 const routes = [
   {

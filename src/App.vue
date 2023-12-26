@@ -5,7 +5,23 @@
     <router-link to="/databinding">Data Binding</router-link>
   </nav>
   <router-view/>
+  <custom-directive/>
+  <plugins-ex/>
+  <store-access/>
 </template>
+
+<script>
+  import CustomDirective from './views/CustomDirective.vue';
+  import PluginsEx from './views/PluginsEx.vue';
+  import StoreAccess from './views/StoreAccess.vue';
+  export default {
+    components: {
+      'custom-directive': CustomDirective,
+      'plugins-ex': PluginsEx,
+      'store-access': StoreAccess,
+    }
+  }
+</script>
 
 <style>
 #app {
